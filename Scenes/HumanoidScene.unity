@@ -748,7 +748,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterAnimator: {fileID: 401732729}
   waveTriggerParameter: Wave
-  waveAnimationDuration: 2
+  waveAnimationDuration: 0
   waveStateName: testwave
 --- !u!1 &409277400
 GameObject:
@@ -3245,6 +3245,7 @@ MonoBehaviour:
   lipSyncController: {fileID: 401732731}
   dialogueAudioSource: {fileID: 1466511014}
   greetingAudioClip: {fileID: 8300000, guid: 3d7f7f23f39abdc45b01e2b75a9f23ca, type: 3}
+  cullduration: 0
 --- !u!4 &2111933657
 Transform:
   m_ObjectHideFlags: 0

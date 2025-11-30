@@ -8,7 +8,7 @@ namespace KutumbAssignment
         [SerializeField] private Animator characterAnimator;
         [SerializeField] private string waveTriggerParameter = "Wave";
         [SerializeField] private float waveAnimationDuration = 2f;
-        [SerializeField] private string waveStateName = "testwave";
+        //[SerializeField] private string waveStateName = "testwave";
 
         public System.Action OnWaveAnimationComplete;
 

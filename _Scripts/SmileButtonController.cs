@@ -16,6 +16,8 @@ namespace KutumbAssignment
         [Header("Audio Settings")]
         [SerializeField] private AudioClip greetingAudioClip;
 
+        [SerializeField] private float noiseDuration;
+
         private bool isAnimating = false;
 
         private void Start()
@@ -82,7 +84,7 @@ namespace KutumbAssignment
             
             if (lipSyncController != null && dialogueAudioSource != null && greetingAudioClip != null)
             {
-                lipSyncController.StartLipSync(audioDuration);
+                lipSyncController.StartLipSync(audioDuration-noiseDuration);
             }
 
             Invoke(nameof(OnInteractionComplete), audioDuration);
