@@ -657,7 +657,6 @@ GameObject:
   m_Component:
   - component: {fileID: 401732730}
   - component: {fileID: 401732729}
-  - component: {fileID: 401732728}
   - component: {fileID: 401732732}
   - component: {fileID: 401732731}
   m_Layer: 0
@@ -667,20 +666,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &401732728
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 401732727}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e8112819fa10b2549869292e920d4a6e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  blinkDuration: 0.1
-  blinkInterval: 3
 --- !u!95 &401732729
 Animator:
   serializedVersion: 4
@@ -749,7 +734,6 @@ MonoBehaviour:
   characterAnimator: {fileID: 401732729}
   waveTriggerParameter: Wave
   waveAnimationDuration: 0
-  waveStateName: testwave
 --- !u!1 &409277400
 GameObject:
   m_ObjectHideFlags: 0
@@ -3245,7 +3229,7 @@ MonoBehaviour:
   lipSyncController: {fileID: 401732731}
   dialogueAudioSource: {fileID: 1466511014}
   greetingAudioClip: {fileID: 8300000, guid: 3d7f7f23f39abdc45b01e2b75a9f23ca, type: 3}
-  cullduration: 0
+  noiseDuration: 1
 --- !u!4 &2111933657
 Transform:
   m_ObjectHideFlags: 0
